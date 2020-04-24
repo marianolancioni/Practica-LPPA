@@ -1,0 +1,20 @@
+body{
+    background-color: #999;
+}
+div.claserojo{
+    border: 3px;
+    padding: 10px;
+    height: 550px;
+    width: 550px;
+    background-color: #F00;
+    margin: 20px;
+}
+div.claseverde{
+    border: 3px;
+    padding: 10px;
+    height: 500px;
+    width: 500px;
+    background-color: #0F0;
+    margin: 20px;
+}
+
