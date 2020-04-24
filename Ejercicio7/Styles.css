@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+}
+div.claserojo{
+    border: 3px;
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+    background-color: #F00;
+    margin: 200px;
+}
+div.claseazul{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    height: 400px;
+    width: 100px;
+    background-color: blue;
+    margin: 40px 40px;
+}
+div.claseverde{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    height: 400px;
+    width: 100px;
+    background-color: green;
+    margin: 40px 40px;
+}
+div.clasegris{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    height: 400px;
+    width: 100px;
+    background-color: grey;
+    margin: 40px 40px;
+}
+div.clasenegro{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 400px;
+    width: 100px;
+    background-color: black;
+    margin: 40px 40px;
+}
