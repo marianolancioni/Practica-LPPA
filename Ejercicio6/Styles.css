@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+}
+div.claserojo{
+    border: 3px;
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+    background-color: #F00;
+    margin: 200px;
+}
+div.claseazul{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    height: 400px;
+    width: 200px;
+    background-color: blue;
+    margin: 40px 40px;
+}
+div.claseverde{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    height: 400px;
+    width: 200px;
+    background-color: green;
+    margin: 40px 40px;
+}
