@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+   text-align:center; color:green
+ }
+h2 {
+  color:blue
+}
+p {
+  font-family: arial;
+  font-size: 18px;
+}
+p.intro::first-letter {
+  color: #ffbb00;
+  font-size:200%;
+}
