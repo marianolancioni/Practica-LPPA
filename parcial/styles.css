@@ -1,0 +1,27 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+    text-decoration: underline;
+  }
+
+button, input, select, textarea {
+    font-family : inherit;
+    font-size   : 100%;
+    border-radius: 5px;
+  }
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff url(bg.jpg) repeat top left;
+}
+.registro {
+    border-radius: 10px;
+    background-color: rgba(4, 236, 74, 0.719);
+}
