@@ -1,0 +1,35 @@
+.tablero {
+    background-color: teal;
+    border-radius: 10px;
+    width:700px;
+    height: 600px;
+    margin:auto;
+}
+
+.titulo {
+    text-decoration-color: turquoise;
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-style: italic;
+}
+
+.casillero {
+    margin:auto;
+    display:block;
+    width:70px;
+    height: 70px;
+    background-color:orangered;
+    border-radius: 10px;
+}
+
+#jugador1 {
+    background-image: url("imagenes/jugador1.png");
+    background-position: top center;
+}
+
+#jugador2 {
+    background-image: url("imagenes/jugador2.png");
+    background-position: top center;
+}
