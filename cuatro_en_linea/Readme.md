@@ -1,1 +1,1 @@
-Para ver este juego ir a https://marianolancioni.github.io/Practica-LPPA/
+Para ver este juego ir a https://marianolancioni.github.io/Practica-LPPA/cuatro_en_linea
