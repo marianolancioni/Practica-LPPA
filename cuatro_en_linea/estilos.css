@@ -1,35 +1,37 @@
-.tablero {
+* {
+    text-align: center;
+}
+
+#tablero {
     background-color: teal;
     border-radius: 10px;
-    width:700px;
-    height: 600px;
+    width:750px;
+    height: 650px;
     margin:auto;
 }
 
-.titulo {
-    text-decoration-color: turquoise;
-    text-align: center;
-    text-decoration-style: solid;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    font-style: italic;
+.fila {
+   display: flex;
+   justify-content: center;
 }
 
-.casillero {
-    margin:auto;
+.celda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
     display:block;
-    width:70px;
-    height: 70px;
-    background-color:orangered;
-    border-radius: 10px;
+    width:80px;
+    height: 80px;
+    background-color:rgb(248, 248, 159);
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-#jugador1 {
-    background-image: url("imagenes/jugador1.png");
-    background-position: top center;
+.JugadorUno {
+    background-color: saddlebrown;
 }
 
-#jugador2 {
-    background-image: url("imagenes/jugador2.png");
-    background-position: top center;
+.JugadorDos {
+    background-color: seagreen;
 }
