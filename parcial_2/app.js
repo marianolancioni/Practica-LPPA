@@ -1,6 +1,6 @@
 window.onload = async function() {
-    var tabla = document.getElementById("tabla")
-    if (localStorage.getItem(tabla) !== null) {
+    
+    if (localStorage.getItem("tabla") !== null) {
         var loader = document.getElementById("loader")
         loader.className = "leyendaOculta"
         var update = document.getElementById("update")
@@ -12,7 +12,7 @@ window.onload = async function() {
         response.json()
          .then(function(jsonResponse) {
             cargaTabla(jsonResponse)
-            localStorage.setItem(tabla, JSON.stringify(jsonResponse))
+            localStorage.setItem("tabla", JSON.stringify(jsonResponse))
             var loader = document.getElementById("loader")
             loader.className = "leyendaOculta"
             var update = document.getElementById("update")
@@ -20,13 +20,13 @@ window.onload = async function() {
          })
     
     
-})
+    })
 }
     catch(error){
-        if (localStorage.getItem(tabla) !== null) {
+        if (localStorage.getItem("tabla") !== null) {
             var update = document.getElementById("update")
             update.textContent = error
-            var tablaGuardada = JSON.parse(localStorage.getItem(tabla))
+            var tablaGuardada = JSON.parse(localStorage.getItem("tabla"))
             cargaTabla(tablaGuardada)
         }else {
             var loader = document.getElementById("loader")

@@ -6,9 +6,23 @@
     <title>Cuatro en linea</title>
   </head>
   <body>
+    <p>
+      Tiempo Jugador 1: <span id="minutos1" class="cronometro">00</span>:<span id="segundos1" class="cronometro">00</span>
+      Tiempo Jugador 2: <span id="minutos2" class="cronometro">00</span>:<span id="segundos2" class="cronometro">00</span>
+    </p>
+    <div>
+      Turno Jugador: <span id="turno"></span>
+    </div>
+    <button id="resetear">Resetear Juego</button>
     <div id="tablero">
-      <div>
-        Turno Jugador: <span id="turno"></span>
+      <div class="flechas">
+        <div id="flecha_0" class="flecha"></div>
+        <div id="flecha_1" class="flecha"></div>
+        <div id="flecha_2" class="flecha"></div>
+        <div id="flecha_3" class="flecha"></div>
+        <div id="flecha_4" class="flecha"></div>
+        <div id="flecha_5" class="flecha"></div>
+        <div id="flecha_6" class="flecha"></div>
       </div>
       <div id="y0" class="fila">
         <div id="0-0" class="celda"></div>
@@ -65,5 +79,31 @@
         <div id="6-5" class="celda"></div>
       </div>
     </div>
+    <button id="guardar" class="botones">Guardar</button><button id="cargar" class="botones">Cargar</button>
+    <table id="tabla" class="tabla">
+      
+        <tr id="fila">
+          <th scope="col">Partida
+          </th>
+          <th scope="col" >Min Jugador 1
+          </th>
+          <th scope="col">Seg Jugador 1
+          </th>
+          <th scope="col">Min Jugador 2
+          </th>
+          <th scope="col">Seg Jugador 2
+          </th>
+          <th scope="col">Elegir
+          </th>
+        </tr>
+        <tr>
+          <td id="nrojuego"></td>
+          <td id="min1"></td>
+          <td id="seg1"></td>
+          <td id="min2"></td>
+          <td id="seg2"></td>
+          <td id="elegir"></td>
+      </tr>
+    </table>
   </body>
 </html>
